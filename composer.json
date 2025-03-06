@@ -6,7 +6,7 @@
         "hosts"
     ],
     "type": "project",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "autoload": {
         "psr-4": {
             "Webdevvie\\Hostsbot\\": "src/"
@@ -23,6 +23,7 @@
         "symfony/console": "^7.2",
         "symfony/dotenv": "^7.2",
         "guzzlehttp/guzzle": "^7.7",
-        "symfony/yaml": "^7.2"
+        "symfony/yaml": "^7.2",
+        "webdevvie/emoji": "^1.3"
     }
 }

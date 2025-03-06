@@ -10,6 +10,7 @@ use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 use Symfony\Component\Yaml\Dumper;
 use Symfony\Component\Yaml\Parser;
+use Webdevvie\Emoji\Emoji;
 
 /**
  * Class SyncCommand
@@ -50,6 +51,14 @@ class SyncCommand extends AbstractCommand
         $live =$input->getOption("live");
         $this->writeHosts($newHosts,$live);
 
+        if($live)
+        {
+            $this->output->writeln(Emoji::C_FRENCH_FRIES);
+        }
+        else
+        {
+            $this->output->writeln(Emoji::C_POTATO);
+        }
 
         return self::SUCCESS;
     }
