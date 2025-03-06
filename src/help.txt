@@ -1,0 +1,19 @@
+<info>
+
+  ___ ___                 __         ___.           __
+ /   |   \  ____  _______/  |_  _____\_ |__   _____/  |_
+/    ~    \/  _ \/  ___/\   __\/  ___/| __ \ /  _ \   __\
+\    Y    (  <_> )___ \  |  |  \___ \ | \_\ (  <_> )  |
+ \___|_  / \____/____  > |__| /____  >|___  /\____/|__|
+       \/            \/            \/     \/
+</info>
+<comment>usage :</comment>
+
+<comment>To test the hosts config</comment>
+    hostsbot sync -v
+
+
+
+<comment>To apply the new config </comment>
+    sudo hostsbot sync -v --live
+

@@ -1,0 +1,6 @@
+hostsbot
+.idea
+composer.lock
+example/etc/*.backup
+config.yaml
+vendor
